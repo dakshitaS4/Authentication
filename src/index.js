@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require("path");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const collection = require("./config");
 
 const app = express();
@@ -69,7 +69,7 @@ app.post("/login", async (req, res) => {
 });
 
 
-const port = 3000;
+const port = process.env.PORT || 3000;
 app.listen(port, () => {
     console.log(`Server running on port: ${port}`);
-})
+});
