@@ -24,7 +24,4 @@ It supports:
 ✔ Connected to MongoDB Atlas
 
 🚀 Live Demo
-
-👉 Add your Render Deployment URL here
-
-https://authentication-app-xyz.onrender.com
+(https://authentication-app-viod.onrender.com)
